@@ -38,12 +38,12 @@ const certificates = [
     id: 3,
     title: "Meta Front-End Developer Certificate",
     issuer: "Meta",
-    year: "2022",
+    year: "2025",
     category: "Development",
     description:
       "Comprehensive program covering modern front-end development with React, JavaScript, and responsive design.",
-    verificationLink: "https://coursera.org/verify",
-    image: "/meta-react-developer-certificate.jpg",
+    verificationLink: "https://www.coursera.org/account/accomplishments/verify/IBZPOSWJD4E1",
+    image: "/meta.png",
     skills: ["React", "JavaScript", "HTML/CSS", "Responsive Design"],
   },
   {
