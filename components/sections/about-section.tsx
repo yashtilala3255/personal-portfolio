@@ -68,7 +68,7 @@ export function AboutSection() {
                   <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary to-accent mb-6 flex items-center justify-center text-4xl font-bold text-primary-foreground">
                     YT
                   </div>
-                  <h3 className="text-2xl font-bold mb-2">Youssef Tilala</h3>
+                  <h3 className="text-2xl font-bold mb-2">Yash Tilala</h3>
                   <p className="text-lg text-muted-foreground mb-4">Full-Stack Developer</p>
                   <div className="flex items-center text-muted-foreground mb-6">
                     <MapPin className="h-4 w-4 mr-2" />
