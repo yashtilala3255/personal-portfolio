@@ -9,6 +9,20 @@ import { ExternalLink, Github, Filter } from "lucide-react"
 const projects = [
   {
     id: 1,
+    title: "Resume Builder App",
+    description:
+      "A professional resume builder web application with multiple templates, customization options, and easy-to-use interface for building resumes.",
+    longDescription:
+      "Developed a comprehensive resume builder platform using React and Tailwind CSS. Users can choose from multiple professionally designed templates, customize every section, and generate their resume effortlessly. Features include live preview, template switching, and easy deployment.",
+    image: "/resume-builder-screenshot.jpg",
+    category: "Web",
+    technologies: ["React", "HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Vercel"],
+    liveUrl: "https://resume-builder-scalex.vercel.app/",
+    githubUrl: "https://github.com/yashtilala3255/resume-builder-app.git",
+    featured: true,
+  },
+  {
+    id: 2,
     title: "E-Commerce Platform",
     description:
       "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
@@ -22,7 +36,7 @@ const projects = [
     featured: true,
   },
   {
-    id: 2,
+    id: 3,
     title: "Task Management App",
     description:
       "A collaborative task management application with real-time updates, team workspaces, and project tracking.",
@@ -33,10 +47,10 @@ const projects = [
     technologies: ["React", "Firebase", "Material-UI", "Socket.io", "Chart.js"],
     liveUrl: "https://taskmanager-demo.vercel.app",
     githubUrl: "https://github.com/username/task-manager",
-    featured: true,
+    featured: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "Weather Mobile App",
     description:
       "Cross-platform mobile app providing detailed weather forecasts with location-based services and notifications.",
@@ -50,7 +64,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Portfolio Website Design",
     description: "Modern portfolio website design system with dark/light themes and smooth animations.",
     longDescription:
@@ -63,7 +77,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "AI Chat Application",
     description: "Real-time chat application powered by AI with smart responses and conversation management.",
     longDescription:
@@ -74,19 +88,6 @@ const projects = [
     liveUrl: "https://ai-chat-demo.vercel.app",
     githubUrl: "https://github.com/username/ai-chat-app",
     featured: true,
-  },
-  {
-    id: 6,
-    title: "Fitness Tracker App",
-    description: "Mobile fitness tracking application with workout plans, progress monitoring, and social features.",
-    longDescription:
-      "Developed a comprehensive fitness tracking app with workout logging, progress visualization, social sharing, and personalized workout recommendations based on user goals.",
-    image: "/fitness-tracker-screenshot.jpg",
-    category: "Mobile",
-    technologies: ["React Native", "Firebase", "Chart.js", "Health API"],
-    liveUrl: "https://expo.dev/@username/fitness-tracker",
-    githubUrl: "https://github.com/username/fitness-tracker",
-    featured: false,
   },
 ]
 
