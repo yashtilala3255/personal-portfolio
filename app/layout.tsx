@@ -75,7 +75,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://yourname.com",
   },
-    generator: 'Sacle X'
+  generator: "v0 by Vercel",
 }
 
 export default function RootLayout({

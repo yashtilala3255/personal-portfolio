@@ -32,7 +32,7 @@ A modern, dark-themed portfolio website for Trada Utsav, MCA student and softwar
 
 ### Installation
 
-```bash
+\`\`\`bash
 # Clone the repository
 git clone [your-repo-url]
 
@@ -44,7 +44,7 @@ npm install
 
 # Run development server
 npm run dev
-```
+\`\`\`
 
 Visit `http://localhost:3000` to see your portfolio.
 
