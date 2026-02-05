@@ -5,6 +5,8 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
+// This line keeps the ThemeToggle import active
+
 const navItems = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
@@ -82,7 +84,7 @@ export function Navigation() {
           </div>
 
           <div className="flex items-center space-x-4">
-          
+            <ThemeToggle />
 
             {/* Mobile menu button */}
             <div className="md:hidden">
