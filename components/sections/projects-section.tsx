@@ -32,7 +32,7 @@ const projects = [
     category: "Web",
     technologies: ["Python", "CNN", "TensorFlow", "Grad-CAM", "Machine Learning", "Hugging Face"],
     liveUrl: "https://huggingface.co/spaces/yashh0325/FractureAI",
-    githubUrl: "https://huggingface.co/spaces/yashh0325/FractureAI",
+    githubUrl: "https://github.com/yashtilala3255/Bone-Fracture-Detection",
     featured: true,
   },
 ]
