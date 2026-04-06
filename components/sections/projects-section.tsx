@@ -21,6 +21,20 @@ const projects = [
     githubUrl: "https://github.com/yashtilala3255/resume-builder-app.git",
     featured: true,
   },
+  {
+    id: 2,
+    title: "Bone Fracture Detection",
+    description:
+      "An AI-powered web application that detects bone fractures from X-ray images using a custom Convolutional Neural Network (CNN) and visualizes the fracture region using Grad-CAM heatmaps.",
+    longDescription:
+      "Built an intelligent medical imaging analysis tool leveraging deep learning to detect bone fractures in X-ray images. The application uses a custom CNN model with Grad-CAM visualization to highlight fractured regions, providing medical professionals with visual insights. Features real-time analysis, confidence scoring, and detailed heatmap visualization.",
+    image: "/bone-fracture-detection-screenshot.jpg",
+    category: "Web",
+    technologies: ["Python", "CNN", "TensorFlow", "Grad-CAM", "Machine Learning", "Hugging Face"],
+    liveUrl: "https://huggingface.co/spaces/yashh0325/FractureAI",
+    githubUrl: "https://huggingface.co/spaces/yashh0325/FractureAI",
+    featured: true,
+  },
 ]
 
 const categories = ["All", "Web", "Mobile", "Design"]
